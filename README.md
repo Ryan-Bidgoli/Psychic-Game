@@ -1,7 +1,5 @@
 # Psychic-Game
-This program picks a random letter that the user then has to end up guessing 
-by entering which letter they think the program chose.
-
-This program is comprised of an html file and an assets folder that has 3 
-more folders that include 2 css files, a javascript file, and a folder 
-consisting of the images used.
+The Psychic game takes in a letter that the user inputs and compares to see if
+it's the same random letter the computer has chosen.
+If they match you win the game and marks down a win, other wise if you don't get it 
+in 10 guesses it reset from the beginning and marks it down as a loss
