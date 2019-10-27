@@ -12,7 +12,7 @@ document.onkeyup = function (event) {
  if(lettersGuessed.includes(playerGuess)) {
     return;
   }
-  //Previous guess is uploaded 
+ 
   lettersGuessed.push(playerGuess);
   if (computerGuess == playerGuess) {
     wins++;
@@ -38,4 +38,5 @@ document.onkeyup = function (event) {
     '<p>Guesses Left: ' + guessesLeft + '</p>' +
     '<p>Your Guesses: ' + lettersGuessed + '</p>';
 document.getElementById("game").innerHTML = html;
+//the statement above writes the value to the html document
 }
